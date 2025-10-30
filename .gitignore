@@ -1,5 +1,4 @@
-# [file name]: .gitignore
-# Data directories - ВСЕ ДАННЫЕ ИГНОРИРУЕМ!
+
 data/
 *.csv
 *.parquet
@@ -47,7 +46,7 @@ conda_envs/
 # Database
 *.db
 *.sqlite3
-creds.db    # ФАЙЛ С КРЕДЕНШАЛАМИ - ОБЯЗАТЕЛЬНО В ИГНОР!
+creds.db 
 postgres_data/
 
 # Logs
