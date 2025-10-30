@@ -1,0 +1,118 @@
+# [file name]: .gitignore
+# Data directories - ВСЕ ДАННЫЕ ИГНОРИРУЕМ!
+data/
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+etl-env/
+
+# Conda
+.miniconda/
+.conda/
+conda_envs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Database
+*.db
+*.sqlite3
+creds.db    # ФАЙЛ С КРЕДЕНШАЛАМИ - ОБЯЗАТЕЛЬНО В ИГНОР!
+postgres_data/
+
+# Logs
+*.log
+logs/
+log.txt
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Backup files
+*.bak
+*.backup
+
+# Compression files
+*.gz
+*.tar
+*.zip
+
+# MacOS
+*.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Windows
+[Tt]humbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Project specific
+almas_dataset.csv
+almas_dataset_processed.csv
+raw_dataset.csv
+transformed_dataset.csv
+processed_data.parquet
+
+# Test files
+test_*
+*_test.py
