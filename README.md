@@ -56,7 +56,8 @@ VideoGamessssss/
 │   └── validate.py        # Валидация данных
 ├── notebooks/             # Jupyter ноутбуки для анализа
 |   ├── EDA.ipynd
-|   ├── README.md  
+|   ├── README.md
+├── README.md
 ├── environment.yml        # Зависимости проекта
 ├── pyproject.toml         # Зависимости проекта
 └── requirements.txt       # Зависимости проекта
@@ -144,5 +145,6 @@ jupyter notebook EDA.ipynb
 - Наиболее прибыльные платформы и жанры
 - Региональные различия в игровых предпочтениях
 - Факторы, влияющие на коммерческий успех игр
+
 
 
