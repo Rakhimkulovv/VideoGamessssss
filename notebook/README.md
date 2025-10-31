@@ -104,6 +104,7 @@ pip install pandas numpy matplotlib seaborn plotly gdown
 jupyter notebook EDA.ipynb
 ```
 3. Динамические графики
+   [Фотографии визуализации динамической](https://drive.google.com/file/d/1W73tc2k-mz6pg59yEmStphBi73gmahLz/view?usp=sharing)
    <img width="833" height="401" alt="image" src="https://github.com/user-attachments/assets/7a754b66-0e55-42ae-9f29-1715ade9b263" />
    <img width="709" height="389" alt="image" src="https://github.com/user-attachments/assets/9600b926-4fd6-4ed4-b03a-78d87357ba52" />
    <img width="794" height="516" alt="image" src="https://github.com/user-attachments/assets/6f93129e-93a4-4a2b-b5d6-4a669794a900" />
